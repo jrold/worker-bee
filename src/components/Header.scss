@@ -1,0 +1,22 @@
+.header-container {
+  color: #fafafa;
+  padding-top: 1rem;
+  margin-bottom: 1.7rem;
+  background: rgb(51, 72, 94);
+  i {
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 2.3rem;
+    margin-top: 1rem;
+  }
+}
+
+.header-right {
+  text-align: right;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  font-feature-settings: "salt";
+  a {
+    text-align: center;
+  }
+}

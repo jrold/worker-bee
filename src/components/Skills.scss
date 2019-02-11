@@ -1,0 +1,40 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.4rem, 1fr));
+  grid-auto-rows: minmax(8.4rem, auto);
+  position: relative;
+}
+
+.module {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  flex: 1 1 20rem;
+}
+
+@supports (display: grid) {
+  .module {
+    margin: 0;
+  }
+}
+
+.skill-badge {
+  text-align: center;
+  position: relative;
+  span {
+    font-size: 1.0rem;
+    display: block;
+  }
+}
+
+.skill-icon {
+  height: 3.5rem;
+}
+
+.skills-panel {
+  padding: 1rem 2rem !important;
+}

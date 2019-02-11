@@ -1,0 +1,148 @@
+{
+  "pageTitle": "Jason Rold - Full Stack Developer / UI Designer",
+  "header": {
+    "name": "Jason Rold",
+    "tagline": "Full Stack Developer / UI Designer",
+    "links": [{
+        "url": "https://github.com/jrold?tab=repositories",
+        "awesomeClass": "fab fa-github-square"
+      },
+      {
+        "url": "https://www.behance.net/jrold",
+        "awesomeClass": "fab fa-behance-square"
+      },
+      {
+        "url": "https://www.linkedin.com/in/jasonrold",
+        "awesomeClass": "fab fa-linkedin"
+      }
+    ]
+  },
+  "skills": [{
+      "label": "JavaScript",
+      "image": "js.png"
+    },
+    {
+      "label": "HTML5",
+      "image": "html.png"
+    },
+    {
+      "label": "Sass",
+      "image": "sass.png"
+    },
+    {
+      "label": "React",
+      "image": "react.png"
+    },
+    {
+      "label": "AngularJS",
+      "image": "angular.png"
+    },
+    {
+      "label": "Chart.js",
+      "image": "chart.png"
+    },
+    {
+      "label": "Node.js",
+      "image": "node.png"
+    },
+    {
+      "label": "Express.js",
+      "image": "express.png"
+    },
+    {
+      "label": "MongoDB",
+      "image": "mongo.png"
+    },
+    {
+      "label": "ElasticSearch",
+      "image": "elasticsearch.png"
+    },
+    {
+      "label": "bash",
+      "image": "terminal.png"
+    },
+    {
+      "label": "git",
+      "image": "git.png"
+    }
+  ],
+  "experience": [{
+      "id": "interpreta",
+      "company": "Interpreta (acquired by Centene)",
+      "brand": "interpreta.jpg",
+      "title": "Applications Engineer",
+      "years": "2015 - 2019",
+      "blockquote": "Designed and developed interfaces, APIs and data aggregators for a Health Care Analytics start-up",
+      "list": [
+        "Key developer for the #@Daily Analyzer:analyzer.jpg@# platform using the MeanJS stack (being converted to React)",
+        "Developed a Node.js API and MongoDB aggregation script to #@compare current medication costs:compare.jpg@# with lower-cost dosages",
+        "Designed and developed a proof-of-concept integrating with Uber's API to #@facilitate transportation needs for patients:uber.jpg@#",
+        "Converted MongoDB aggregate and search API queries to real-time ElasticSearch queries to reduce response times from minutes to #@milliseconds:search.gif@#",
+        "Designed and developed APIs and data visualizations for #@Clinical Priority & Activity:prioritization.jpg@#, #@User Adoption:adoption.jpg@# and #@Higi kiosk data:higi.jpg@#",
+        "Developed a Node.js API to export aggregated data and single patient data to Excel files"
+      ]
+    },
+    {
+      "id": "transcend",
+      "company": "Transcend Insights (formerly Anvita Health, acquired by Humana)",
+      "brand": "ti.jpg",
+      "css": {
+        "top": ".5rem"
+      },
+      "title": "UI Designer and Developer",
+      "years": "2008 - 2014",
+      "blockquote": "Designed and developed interfaces for a Health Care Analytics start-up",
+      "list": [
+        "Designed and developed several key #@Health Care Analytics:amp.jpg@# user interfaces for the #@web:anvita-insight.jpg@#",
+        "Designed and developed interactive prototypes for the #@web:anvita-proto1.jpg@# and #@iOS devices:anvita-ipad.jpg@#",
+        "Designed print and #@trade-show:anvita-booth.jpg@# assets and corporate #@website:anvita-web.jpg@#",
+        "Developed a CMS used to distribute bundled software to external clients"
+      ]
+    },
+    {
+      "id": "sony",
+      "company": "Sony Electronics",
+      "brand": "sony.jpg",
+      "css": {
+        "height": "2rem"
+      },
+      "title": "Senior Web Engineer",
+      "years": "2007-2008",
+      "blockquote": "Lead designer for the mylolabs.com website and designer/developer for internal and customer-facing projects",
+      "list": [
+        "Designed and developed a #@website:mylo-site.jpg@# to support the Sony mylo mobile product",
+        "Designed and developed a #@micro-site:mylo-micro.jpg@# custom tailored to the Sony mylo",
+        "Designed screens for Sony VAIO #@desktop support software:vaio.jpg@#",
+        "Designed prototype #@widgets:widget.jpg@# for emerging mobile products"
+      ]
+    },
+    {
+      "id": "cox",
+      "company": "Cox Communications",
+      "brand": "cox.png",
+      "css" : {
+        "top": ".6rem"
+      },
+      "title": "Web Designer",
+      "blockquote": "Managed marketing emails and designed customer-facing websites",
+      "years": "2007",
+      "list": [
+        "Designed and developed key #@micro-sites:cox-community.jpg@# to support #@marketing initiatives:cox-pivot.jpg@# for new products",
+        "Refreshed and maintained the design of coxsandiego.com",
+        "Designed #@marketing emails:tech-solutions.jpg@# and managed the distribution"
+      ]
+    },
+    {
+      "id": "jlrdesign",
+      "company": "jlrdesign",
+      "brand": "jlrdesign.png",
+      "title": "Owner",
+      "blockquote": "Designed and developed websites, print, and marketing materials for an array of clients including Blizzard Interactive, SimpleTech and Suspicous Clothing",
+      "years": "2002-2007",
+      "list": [
+        "Designed websites for clients in many industries including #@biotech:biotech.jpg@#, #@finance:finance.jpg@#, #@video games:blizzard.jpg@#, #@clothing:clothing.jpg@#, #@non-profit:nonprofit.jpg@# and #@real-estate:realestate.jpg@#",
+        "Designed #@booth:microbooth.jpg@# and print materials for clients"
+      ]
+    }
+  ]
+}
