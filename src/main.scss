@@ -63,6 +63,7 @@ a {
   -ms-animation: fadein 2s;
   -o-animation: fadein 2s;
   animation: fadein 2s;
+  min-width: 350px;
 }
 
 @keyframes fadein {
@@ -99,7 +100,6 @@ a {
   padding: 2rem;
   margin-bottom: 1.5rem;
   box-shadow: 0px .4rem 3rem #efefef66;
-  border-radius: .5rem;
   overflow: hidden;
   font-feature-settings: "salt";
   letter-spacing: -.02rem;
@@ -109,16 +109,20 @@ a {
   position: relative;
 }
 
+h1 {
+  font-size: 3.5rem;
+}
+
 h3 {
   margin-bottom: .5rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-style: italic;
 }
 
 ul {
-  list-style: disc inside;
+  list-style: disc outside;
   margin-top: .5rem;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   font-size: 1.3rem;
   line-height: 1.8rem;
 }

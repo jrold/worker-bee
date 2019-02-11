@@ -9,6 +9,9 @@ import './main.scss';
 
 const App = () => {
   let [view, setView] = useState(false);
+  let isIE = /*@cc_on!@*/false || !!document.documentMode;
+  let isEdge = !isIE && !!window.StyleMedia;
+
   const fontA = new FontFaceObserver('Inter');
   const fontB = new FontFaceObserver('Inter', { style: "italic" });
   const fontC = new FontFaceObserver('Font Awesome 5 Free', { weight: 400 });
@@ -26,9 +29,11 @@ const App = () => {
   });
   return (
     <>
-      {view ? <Container /> : null }
+      {view || (isEdge || isIE) ? <Container /> : null}
     </>
   );
+
+
 }
 
 export default App;
